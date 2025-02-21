@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Listener.RetryTransform"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Runs.SingleRunCreation">
+        <methods>
+          <include name="deleteRun"/>
+          <include name="setAllureEnvironment"/>
+          <include name="browser"/>
+          <include name="createRun"/>
+          <include name="closing"/>
+        </methods>
+      </class> <!-- Runs.SingleRunCreation -->
+      <class name="Runs.ModelList">
+        <methods>
+          <include name="modelListLochinvar"/>
+          <include name="modelListLaars"/>
+          <include name="modelListViessmann"/>
+          <include name="modelListCamus"/>
+          <include name="modelListDeDietrich"/>
+          <include name="modelListKohlergenset"/>
+          <include name="modelListHurst"/>
+          <include name="modelListMiura"/>
+          <include name="modelListRaypack"/>
+          <include name="modelListAdvancedthermalDynamics"/>
+          <include name="modelListPattersonKelley"/>
+          <include name="modelListWeilMcClain"/>
+          <include name="modelListPVI"/>
+          <include name="modelListBryan"/>
+          <include name="modelListRBI"/>
+          <include name="setAllureEnvironment"/>
+          <include name="browser"/>
+          <include name="modelListRiello"/>
+          <include name="modelListFulton"/>
+          <include name="modelListGenerator"/>
+          <include name="modelListAerco"/>
+          <include name="closing"/>
+        </methods>
+      </class> <!-- Runs.ModelList -->
+      <class name="Runs.ManufactureList">
+        <methods>
+          <include name="setAllureEnvironment"/>
+          <include name="browser"/>
+          <include name="manufactureLIst"/>
+          <include name="closing"/>
+        </methods>
+      </class> <!-- Runs.ManufactureList -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

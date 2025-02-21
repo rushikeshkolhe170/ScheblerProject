@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-10T10:07:24 IST" name="Default suite" finished-at="2025-01-10T10:07:37 IST" duration-ms="12154">
+    <groups>
+    </groups>
+    <test started-at="2025-01-10T10:07:24 IST" name="Default test" finished-at="2025-01-10T10:07:37 IST" duration-ms="12154">
+      <class name="Dashboard.DashboardFeatures">
+        <test-method is-config="true" signature="setAllureEnvironment()[pri:0, instance:Dashboard.DashboardFeatures@2a8448fa]" started-at="2025-01-10T10:07:24 IST" name="setAllureEnvironment" finished-at="2025-01-10T10:07:24 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAllureEnvironment -->
+        <test-method is-config="true" signature="browser()[pri:0, instance:Dashboard.DashboardFeatures@2a8448fa]" started-at="2025-01-10T10:07:24 IST" name="browser" finished-at="2025-01-10T10:07:31 IST" duration-ms="6022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="detailsOnDashboard()[pri:1, instance:Dashboard.DashboardFeatures@2a8448fa]" started-at="2025-01-10T10:07:31 IST" name="detailsOnDashboard" description="Various calculation box on Dashboard" finished-at="2025-01-10T10:07:31 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detailsOnDashboard -->
+        <test-method signature="featureButton()[pri:2, instance:Dashboard.DashboardFeatures@2a8448fa]" started-at="2025-01-10T10:07:31 IST" name="featureButton" description="Toggle, Profile and Signout button" finished-at="2025-01-10T10:07:36 IST" duration-ms="5401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- featureButton -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:Dashboard.DashboardFeatures@2a8448fa]" started-at="2025-01-10T10:07:36 IST" name="closing" finished-at="2025-01-10T10:07:37 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- Dashboard.DashboardFeatures -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
